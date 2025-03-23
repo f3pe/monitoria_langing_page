@@ -50,7 +50,6 @@ img {
 footer{
     background-color: var(--cor-destaque-alternativo);
     color: var(--cor-fundo);
-    text-align: center;
     padding-bottom: 5rem;
     padding-top: 2rem;
 }
@@ -67,4 +66,39 @@ h2{
 
 a{
     color: var(--cor-fundo);
+}
+li{
+    list-style-type: none;
+}
+
+@media (max-width: 900px){
+    .conteudo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto{
+        width: 80%;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    img{
+        width: 80%;
+    }
+    .footer-conteudo{
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer h1{
+        width: 15.625rem;
+    }
+    .footer-text{
+        width: 15.625rem;
+    }
 }
