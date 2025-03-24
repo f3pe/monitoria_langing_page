@@ -16,6 +16,19 @@ body{
     background-color: var(--cor-fundo);
 }
 
+nav{
+    background-color: var(--cor-destaque-alternativo);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 5vh;
+    width: 100%;
+    min-height: 2rem;
+    position: fixed;
+}
+
 section{
     display: flex;
     justify-content: center;
