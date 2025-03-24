@@ -50,6 +50,7 @@ img {
 footer{
     background-color: var(--cor-destaque-alternativo);
     color: var(--cor-fundo);
+    text-align: center;
     padding-bottom: 5rem;
     padding-top: 2rem;
 }
