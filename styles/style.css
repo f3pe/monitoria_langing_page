@@ -115,4 +115,7 @@ li{
     .footer-text{
         width: 15.625rem;
     }
+    nav{
+        margin-top: -100%;
+    }
 }
